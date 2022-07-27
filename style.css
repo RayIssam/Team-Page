@@ -27,6 +27,7 @@ nav a{
     color: #584734;
 }
 
+
 #title{
     font-size: 20px;
     color:white;
@@ -77,6 +78,7 @@ figure .photo{
    height: 300px;
    margin:0 50px;
    border: 1px solid #EFE9E4;
+   filter: grayscale(100%);
 }
 
 figcaption{
