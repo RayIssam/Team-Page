@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:#B0A193;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+  }
+ nav li{
+    list-style: none;
+    padding: 20px 20px;
+    display: inline-block;
+ }
+nav a{
+    text-decoration: none;
+    color:white;
+}
+ 
+ nav a:hover {
+    color: #584734;
+}
+
+#title{
+    font-size: 20px;
+    color:white;
+    padding: 20px 20px;
+}
+
+#section-hero{
+    width:100%;
+    height:650px;
+    color:white;
+    position:relative;
+   text-align:center;
+background-color: #E7DFD8;
+}
+
+#section-hero h1{
+    color:#584734;
+   margin-top:250px;
+   padding: 40px 40px;
+   border: 1px solid black ;
+   display: inline-block;
+   text-align: center;
+  
+
+}
+#Team-Members h2{
+    text-align: center;
+    margin: 60px auto;
+    color:#EFE9E4;
+    font-size: 30px;
+}
+
+.team-members{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+#Team-Members{
+background-color: #867E78;
+padding: 40px;
+}
+
+figure .photo{
+   width: 250px;
+   height: 300px;
+   margin:0 50px;
+   border: 1px solid #EFE9E4;
+}
+
+figcaption{
+    color: #EFE9E4;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+#Feedback{
+    width:100%;
+    height:350px;
+    color:white;
+   text-align:center;
+   background-color:#E7DFD8;
+   padding: 50px ;
+
+}
+h2,p,label{
+    color:#584734
+    
+}
+p{
+    margin: 10px 0;
+
+}
+#Feedback h2{
+    padding-top: 40px ;
+}
+
+form{
+    padding: 10px;
+}
+textarea ,input{
+    
+    outline: none;}
+
+footer{
+    position:relative;
+    text-align:center;
+    background-color: #867E78;
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+}
+.rahiq{
+    padding-top: 15px;
+    color:#E7DFD8;
+}
