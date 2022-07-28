@@ -34,6 +34,7 @@ nav a{
     padding: 20px 20px;
 }
 
+
 #section-hero{
     width:100%;
     height:650px;
@@ -50,14 +51,23 @@ background-color: #E7DFD8;
    border: 1px solid black ;
    display: inline-block;
    text-align: center;
-  
 
 }
-#Team-Members h2{
+#section-hero h1:hover{
+    color:slategray;
+    border:4px solid white;
+}
+.titleH2{
     text-align: center;
-    margin: 60px auto;
+    margin: 30px auto;
     color:#EFE9E4;
     font-size: 30px;
+    text-transform: uppercase;
+
+}
+.titleH2:hover{
+    text-decoration: underline;
+    color:rgb(217, 223, 176);
 }
 
 .team-members{
@@ -78,7 +88,6 @@ figure .photo{
    height: 300px;
    margin:0 50px;
    border: 1px solid #EFE9E4;
-   filter: grayscale(100%);
 }
 
 figcaption{
@@ -97,9 +106,13 @@ figcaption{
    padding: 50px ;
 
 }
-h2,p,label{
+p,label{
     color:#584734
     
+}
+.feedback-title{
+    color:#584734;
+
 }
 p{
     margin: 10px 0;
@@ -128,3 +141,13 @@ footer{
     padding-top: 15px;
     color:#E7DFD8;
 }
+
+.lectures li{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px auto;
+    list-style: none;
+    color:#EFE9E4;
+
+}
+
